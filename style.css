@@ -5,7 +5,7 @@
 .padding-32{padding-top:32px!important;padding-bottom:32px!important}
 .padding-64{padding-top:64px!important;padding-bottom:64px!important}
 .bar{width:100%;overflow:hidden}.center .bar{display:inline-block;width:auto}
-.bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0; text-decoration: none; color: #000}
 .light-grey{color:#000!important;background-color:#f1f1f1!important}
 .content,.auto{margin-left:auto;margin-right:auto}.content{max-width:980px}.auto{max-width:1140px}
 .row{content:"";display:table;clear:both}
@@ -15,6 +15,5 @@
 .small{font-size:14px!important}
 .medium{font-size:17px!important}
 .large{font-size:24px!important}
-
 
 .text-grey{color:#757575!important}
