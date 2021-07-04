@@ -1,3 +1,4 @@
+.top{position:fixed;width:100%;z-index:1;top:0}
 .center{text-align:center!important}
 .padding{padding:8px 16px!important}
 .padding-large{padding:12px 24px!important}
