@@ -1,11 +1,11 @@
 body{margin: 0px !important}
-.top{position:fixed;width:100%;z-index:1;background-color: rgba(255, 255, 255, 0.75);height: 9%;}
+.top{position:fixed;width:100%;z-index:1;background-color: rgba(255, 255, 255, 0.75);height: 70px;}
 .center{text-align:center!important}
 .padding{padding:16px 16px!important}
 .padding-large{padding:12px 24px!important}
-.padding-32{padding:32px!important}
-.padding-64{padding:64px!important}
-.padding-128{padding:128px!important}
+.padding-32{padding:32px}
+.padding-64{padding:64px}
+.padding-128{padding:128px}
 .bar{width:100%;overflow:hidden}
 .bar-item{font-size:1em;padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0; text-decoration: none; color: #000}
 .light-grey{color:#000!important;background-color:#f1f1f1!important}
@@ -15,12 +15,13 @@ body{margin: 0px !important}
 .left{float:left}
 .half{width:49.99999%}
 .col{float:left;width:100%}
-.small{font-size:0.5em}
+.small{font-size:0.7em}
 .medium{font-size:2em}
 .large{font-size:2.5em}
 .text-grey{color:#757575}
 .text-white{color:#e0e0e0}
 .text-dark-white{color:#d0d0d0}
+.mobile-footer{display: none;}
 .background{
     background-image: url("images/nakashima-home.jpg");
     background-color: #cccccc;
@@ -36,8 +37,17 @@ body{margin: 0px !important}
 }
 
 @media only screen and (max-width: 360px) {
+    .top{height: 50px;}
     .row{display:block;}
     .desktop{display: none;}
     .padding{padding:9px 9px!important}
     .bar-item{font-size:0.5em}
+    .padding-128{padding: 5%;}
+    .padding-64{padding: 2%;}
+    .half{width: auto;}
+    .large{font-size: 1em;}
+    .medium{font-size: 0.7em;}
+    .bottom-image{position: relative;bottom: -70%;}
+    .max-mobile{width: 100%;}
+    .mobile-footer{display: flow-root;text-align: center;line-height:30px}
   }
